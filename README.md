@@ -3,6 +3,6 @@ Transform a model in web site using html and css
 
 change animation in the nav ?
 
-resize correctly the img in lodging part
+retirer tous les margins, padding qui servent a rien et resize correctement le site
 
-put items in activity correctly
+réaligner les titres
