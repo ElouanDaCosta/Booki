@@ -72,6 +72,10 @@ a:hover {
 
 /*====Researchbar part====*/
 
+#littleinfo {
+    padding-left: 16px;
+}
+
 #littleinforesearch {
     display: flex;
     height: 35px;
@@ -125,6 +129,7 @@ a:hover {
 
 #filter {
     padding-top: 0px;
+    padding-left: 16px;
     display: flex;
     align-content: flex-end;
     flex-direction: column;
@@ -196,6 +201,7 @@ a:hover {
 
 #lodging {
     display: flex;
+    padding: 0 42px;
 }
 
 .menu {
@@ -276,10 +282,6 @@ a:hover {
 
 /*====mostpopular part====*/
 
-#showmore {
-    padding: 0px 70px;
-}
-
 #mostPopularPart {
     display: flex;
     position: relative;
@@ -287,11 +289,10 @@ a:hover {
     align-content: flex-start;
 }
 
-#mostPopular {
+#mostPopularTitle {
     display: flex;
     flex-direction: row;
     padding: 0 90px;
-    /*90*/
     margin: 0 0;
     padding-top: 30px;
 }
@@ -310,7 +311,7 @@ a:hover {
     background-color: #F2F2F2;
     border: 10px solid #F2F2F2;
     border-radius: 3%;
-    width: 30%;
+    width: 35%;
     height: 725px;
     margin-left: 40px;
 }
@@ -396,7 +397,7 @@ a:hover {
 /*====activity part====*/
 
 #activityTitle {
-    padding: 0 64px;
+    padding: 0 42px;
     padding-top: 30px;
     margin: 0 0;
     padding-bottom: 0px;
@@ -405,8 +406,8 @@ a:hover {
 #activity {
     display: flex;
     width: 100%;
-    padding-left: 0px;
-    margin-left: 0px;
+    padding: 0 42px;
+    margin-bottom: 32px;
 }
 
 #leftActivityList {
@@ -414,7 +415,7 @@ a:hover {
     list-style-type: none;
     width: 50%;
     margin-top: 0;
-    margin-right: 32px;
+    margin-right: 48px;
     padding-left: 0;
 }
 
@@ -430,7 +431,7 @@ a:hover {
 
 .activitySubContainer {
     width: 50%;
-    margin-left: 16px;
+    margin-left: 32px;
 }
 
 .activityItemImg {
@@ -460,6 +461,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     background-color: white;
+    width: 50%;
     height: 460px;
     margin-right: 16px;
     padding: 0;
@@ -493,7 +495,7 @@ a:hover {
     background-color: white;
     height: 180px;
     margin-top: 32px;
-    padding: 0px 0px 26px;
+    padding: 0px 0px 48px;
     border-radius: 20px;
     overflow: hidden;
     background-size: cover;
@@ -506,7 +508,7 @@ a:hover {
     align-items: flex-end;
     align-content: flex-end;
     background-color: white;
-    height: 180px;
+    height: 212px;
     margin-bottom: 32px;
     padding: 0 0 28px;
     border-radius: 20px;
@@ -521,9 +523,9 @@ a:hover {
     align-items: flex-end;
     align-content: flex-end;
     background-color: white;
-    height: 246px;
+    height: 214px;
     margin: 10px 0px;
-    padding: 0px 0px 26px;
+    padding: 0 0 40px;
     border-radius: 20px;
     overflow: hidden;
     background-size: cover;
@@ -542,6 +544,11 @@ footer {
     margin-left: 30px;
 }
 
+.footerpart h5 {
+    margin: 28px 0 0;
+}
+
 .footerpart h6 {
     font-weight: 100;
+    margin: 12px 0;
 }
