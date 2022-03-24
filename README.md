@@ -7,3 +7,4 @@ retirer tous les margins, padding qui servent a rien et resize correctement le s
 
 réaligner les titres
 
+faire la version mobile et la version tablette et tout mettre au propre
