@@ -76,6 +76,17 @@ a:hover {
     padding-left: 16px;
 }
 
+#littleinfo h4 {
+    margin-bottom: 0px;
+    padding-left: 30px;
+}
+
+#littleinfo h6 {
+    margin: 10px 0px;
+    padding-left: 30px;
+    font-weight: 100;
+}
+
 #littleinforesearch {
     display: flex;
     height: 35px;
@@ -114,15 +125,8 @@ a:hover {
     font-weight: bold;
 }
 
-#littleinfo h4 {
-    margin-bottom: 0px;
-    padding-left: 30px;
-}
-
-#littleinfo h6 {
-    margin: 10px 0px;
-    padding-left: 30px;
-    font-weight: 100;
+#iconSmartphone {
+    display: none;
 }
 
 /*====filter part====*/
@@ -589,7 +593,6 @@ footer {
         margin: 0px 28px;
         padding-bottom: 10px;
         border-bottom: 4px solid #F2F2F2;
-
     }
 
     #nav li::after {
@@ -601,6 +604,49 @@ footer {
         top: 80px;
         left: -10%;
         width: 0;
+    }
+
+    #littleinfo {
+        padding-left: 0px;
+    }
+
+    #littleinfo h4 {
+        padding-left: 15px;
+        padding-bottom: 6px;
+        font-size: 26px;
+        line-break: auto;
+    }
+
+    #littleinfo h6 {
+        padding-left: 15px;
+        font-weight: 500;
+        font-size: larger;
+        margin-bottom: 28px;
+    }
+
+    #littleinforesearch {
+        height: 35px;
+        padding: 0 15px;
+    }
+
+    #littleinfo input {
+        padding-right: 0;
+        
+    }
+
+    #littleinfo button {
+        display: none;
+    }
+
+    #iconSmartphone {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0065FC;
+        color: white;
+        border: none;
+        padding: 0 10px;
+        border-radius: 30%;
     }
 
 
