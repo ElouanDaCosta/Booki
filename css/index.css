@@ -564,6 +564,8 @@ footer {
 
 @media screen and (min-width: 320px) and (max-width: 768px)
 {
+    /*====Header====*/
+
     header {
         display: flex;
         align-items: center;
@@ -606,6 +608,8 @@ footer {
         width: 0;
     }
 
+    /*====littleinfo====*/
+
     #littleinfo {
         padding-left: 0px;
     }
@@ -624,14 +628,24 @@ footer {
         margin-bottom: 28px;
     }
 
+    /*====research====*/
+
     #littleinforesearch {
-        height: 35px;
+        height: 50px;
         padding: 0 15px;
+    }
+
+    #littleinforesearch .icon {
+        padding: 0 18px;
     }
 
     #littleinfo input {
         padding-right: 0;
-        
+        width: 400px;
+    }
+
+    #littleinfo input::placeholder {
+        font-size: 20px;
     }
 
     #littleinfo button {
@@ -644,10 +658,45 @@ footer {
         justify-content: center;
         background-color: #0065FC;
         color: white;
-        border: none;
-        padding: 0 10px;
+        padding: 0 18px;
         border-radius: 30%;
     }
+
+    /*====filter====*/
+
+    #filter {
+        display: flex;
+        align-content: flex-end;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    
+    #filterbar {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+    }
+
+    #filterbar h5 {
+        padding: 0 200px 0 0;
+        margin: 16px 0 4px 0;
+        font-size: large;
+    }
+
+    #filterbar li div {
+        width: 60px;
+        height: 60px;
+    }
+
+    #filterbar li {
+        height: 60px;
+        border-radius: 40px 40px 40px 40px;
+        margin: 8px 8px;
+        margin-left: 0;
+    }
+
 
 
 }
