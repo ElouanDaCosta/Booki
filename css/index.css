@@ -566,6 +566,10 @@ footer {
 {
     /*====Header====*/
 
+    body {
+        margin: 0;
+    }
+
     header {
         display: flex;
         align-items: center;
@@ -618,7 +622,7 @@ footer {
         padding-left: 15px;
         padding-bottom: 6px;
         font-size: 26px;
-        line-break: auto;
+        width: 90%;
     }
 
     #littleinfo h6 {
@@ -695,6 +699,152 @@ footer {
         border-radius: 40px 40px 40px 40px;
         margin: 8px 8px;
         margin-left: 0;
+    }
+
+    .info {
+        font-size: 26px;
+        
+    }
+
+    .infoimg {
+        width: 10px;
+        height: 10px;
+        padding: 0 80px;
+    }
+
+    /*====lodging part====*/
+
+    #lodging {
+        padding: 0 0;
+        flex-direction: column-reverse;
+    }
+
+    .menu {
+        width: 100%;
+        background-color: white;
+        border: 0px;
+        border-radius: 0;
+    }
+
+    #menulist {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    #hebergement {
+        font-size: 27px;
+    }
+
+    .menuitems {
+        width: 95%;
+        margin: 0 18px 18px 0px;
+        padding: 0 0;
+    }
+
+    /*====mostpopulart part====*/
+
+    #mostPopularPart {
+        margin-bottom: 14px;
+    }
+
+    #mostPopularTitle {
+        font-size: 23px;
+    }
+
+    /*#mostPopularIcon {
+        
+    }*/
+
+    .asidemenu {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        height: 675px;
+    }
+
+    .sidelistitems {
+        margin: 9px 0;
+    }
+
+    /*====activity part====*/
+
+    #activityTitle {
+        padding: 0 18px;
+        padding-bottom: 10px;
+        font-size: 22px;
+    }
+
+    #activity {
+        flex-direction: column;
+        padding: 0 18px;
+    }
+
+    #leftActivityList {
+        width: 100%;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    #rightActivityList {
+        width: 100%;
+        flex-direction: column;
+        justify-content: none;
+    }
+
+    .activitySubContainer {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 22px;
+    }
+
+    .largeActivityItem {
+        width: 100%;
+        height: 180px;
+        margin-bottom: 22px;
+        padding-bottom: 32px;
+    }
+
+    .mediumActivityItem {
+        height: 180px;
+        padding-bottom: 32px;
+    }
+
+    .smallestActivityItem {
+        margin-top: 22px;
+        height: 180px;
+        padding-bottom: 32px;
+    }
+
+    .smallActivityItem {
+        height: 180px;
+        padding-bottom: 32px;
+        margin-bottom: 22px;
+    }
+
+    .activityItem {
+        margin-top: 0;
+        height: 180px;
+        padding-bottom: 32px;
+    }
+
+    /*====footer====*/
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footerpart {
+        width: 90%;
+    }
+
+    .footerpart h5 {
+        font-size: 24px;
+        word-break: none;
+        margin-bottom: 28px;
+    }
+
+    .footerpart h6 {
+        font-size: 20px;
     }
 
 
