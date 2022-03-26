@@ -591,6 +591,7 @@ footer {
 
     #nav ul {
         padding: 0 0;
+        border-bottom: 4px solid #F2F2F2;
     }
 
     #nav li {
@@ -598,7 +599,6 @@ footer {
         font-size: large;
         margin: 0px 28px;
         padding-bottom: 10px;
-        border-bottom: 4px solid #F2F2F2;
     }
 
     #nav li::after {
