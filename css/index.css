@@ -914,11 +914,38 @@ footer {
         width: 80%;
     }
 
+    #filterbar li div {
+        width: 40px;
+        height: 40px;
+    }
+
+    #filterbar li {
+        height: 40px;
+    }
+
     #filterbar h5 {
-        padding: 0 50px 0 0;
+        padding: 0 400px 0 0;
     }
 
     /*====lodging====*/
+
+    .menu {
+        margin: 30px 0 0 18px;
+        width: 95%;
+        height: 50%;
+        background-color: #F2F2F2;
+        border-radius: 3%;
+    }
+
+    #menulist {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .menuitems {
+        width: 46%;
+        margin: 0 28px 28px 0;
+    }
 
     /*====mostpopular====*/
 
@@ -926,6 +953,69 @@ footer {
         width: 95%;
         border-radius: 3%;
         margin: 0 18px;
+    }
+
+    /*====activity====*/
+
+    #activity {
+        flex-direction: row;
+    }
+
+    #leftActivityList {
+        width: 50%;
+        flex-direction: row;
+    }
+
+    #rightActivityList {
+        width: 50%;
+        flex-direction: row;
+    }
+
+    .activitySubContainer {
+        width: 100%;
+    }
+
+    .largeActivityItem {
+        width: 100%;
+        height: 382px;
+        margin-bottom: 22px;
+        padding-bottom: 8px;
+    }
+
+    .mediumActivityItem {
+        height: 180px;
+        padding-bottom: 44px;
+        margin-right: 18px;
+    }
+
+    .smallestActivityItem {
+        margin-top: 22px;
+        height: 180px;
+        padding-bottom: 44px;
+        margin-right: 18px;
+    }
+
+    .smallActivityItem {
+        height: 180px;
+        padding-bottom: 44px;
+        margin-bottom: 22px;
+    }
+
+    .activityItem {
+        margin-top: 0;
+        height: 180px;
+        padding-bottom: 44px;
+    }
+
+    /*====footer====*/
+
+    footer {
+        flex-direction: row;
+    }
+
+    .footerpart {
+        width: 100%;
+        margin-left: 18px;
     }
 
 }
