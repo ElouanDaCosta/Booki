@@ -16,6 +16,10 @@ body {
     margin-top: 0px;
 }
 
+title {
+    display: none;
+}
+
 /*====Header part====*/
 
 header {
@@ -252,12 +256,12 @@ a:hover {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 6px;
 }
 
-#menuItemsImg {
+.menuItemsImg {
     width: 100%;
     height: 65%;
 }
 
-#menuItemsImg img {
+.menuItemsImg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -838,7 +842,6 @@ footer {
     #rightActivityList {
         width: 100%;
         flex-direction: column;
-        justify-content: none;
     }
 
     .activitySubContainer {
@@ -890,7 +893,6 @@ footer {
 
     .footerpart h5 {
         font-size: 20px;
-        word-break: none;
         margin-top: 56px;
         margin-bottom: 28px;
     }
