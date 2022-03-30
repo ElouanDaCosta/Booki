@@ -252,15 +252,6 @@ a:hover {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 6px;
 }
 
-/*.menuitems:hover {
-    width: 40%;
-    height: 280px;
-    transition: .2s ease;
-    position: relative;
-    content: '';
-    overflow: hidden;
-}*/
-
 #menuItemsImg {
     width: 100%;
     height: 65%;
@@ -908,8 +899,6 @@ footer {
         font-size: 20px;
     }
 
-
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px)
@@ -917,7 +906,7 @@ footer {
     /*====header====*/
 
     #nav li::after {
-      left: 20%;
+      left: -25%;
     }
 
     #nav li:hover::after {
@@ -929,8 +918,6 @@ footer {
     #littleinfo h4 {
         width: 60%;
     }
-
-
 
     /*====research====*/
 
@@ -1093,4 +1080,3 @@ footer {
     }
 
 }
-
