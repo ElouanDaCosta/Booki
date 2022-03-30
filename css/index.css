@@ -103,6 +103,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     padding: 0 10px;
+    font-size: 12px;
 }
 
 #littleinfo input {
@@ -152,6 +153,8 @@ a:hover {
 #filter h5 {
     padding: 10px 10px 10px 30px;
     margin: 0 0;
+    font-size: medium;
+    
 }
 
 #filterbar li div {
@@ -192,16 +195,22 @@ a:hover {
     padding-left: 42px;
 }
 
+.info h6 {
+    font-weight: 100;
+    font-size: 13px;
+}
+
 #infoimg {
-    width: 25px;
-    height: 25px;
+    width: 18px;
+    height: 18px;
     border: 1px solid #F2F2F2;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #0065FC;
-    margin-right: 10px;
+    margin-right: 8px;
+    font-size: 12px;
 }
 
 /*====lodging part====*/
@@ -281,6 +290,10 @@ a:hover {
 #menulist h5 {
     display: flex;
     margin: 0 0;
+}
+
+.starRating:before {
+    color: #0065FC;
 }
 
 .starRating {
