@@ -661,7 +661,7 @@ footer {
     #littleinfo h6 {
         padding-left: 22px;
         font-weight: 500;
-        font-size: larger;
+        font-size: 18.5px;
         margin-bottom: 28px;
     }
 
@@ -707,6 +707,7 @@ footer {
         align-content: flex-end;
         flex-direction: column;
         padding-left: 0px;
+        padding-top: 28px;
     }
     
     #filterbar {
@@ -721,7 +722,7 @@ footer {
     #filter h5 {
         display: flex;
         align-self: flex-start;
-        padding: 38px 0 0 22px;
+        padding: 0px 0 0 22px;
         margin: 0 0 0 0;
         font-size: large;
     }
@@ -741,15 +742,19 @@ footer {
     .info {
         font-size: 28px;
         padding-left: 22px;
+        width: 95%;
     }
 
     .info h6 {
         font-weight: 100;
+        font-size: 19px;
     }
 
     #infoimg{
         font-size: 12px;
         margin-bottom: 20px;
+        width: 40px;
+        height: 26px;
     }
 
     /*====lodging part====*/
@@ -766,6 +771,7 @@ footer {
         border: 0px;
         border-radius: 0;
         padding-left: 22px;
+        padding-bottom: 12px;
     }
 
     #menulist {
@@ -781,6 +787,10 @@ footer {
         width: 95%;
         margin: 0 18px 18px 0px;
         padding: 0 0;
+    }
+
+    .menuItemsInfo {
+        font-size: 18px;
     }
 
     /*====mostpopulart part====*/
@@ -809,6 +819,10 @@ footer {
     .sidelistitems {
         margin: 9px 0;
         width: 100%;
+    }
+
+    .sideItemsInfo {
+        font-size: 18px;
     }
 
     /*====activity part====*/
@@ -846,30 +860,30 @@ footer {
         width: 100%;
         height: 180px;
         margin-bottom: 22px;
-        padding-bottom: 32px;
+        padding-bottom: 38px;
     }
 
     .mediumActivityItem {
         height: 180px;
-        padding-bottom: 32px;
+        padding-bottom: 38px;
     }
 
     .smallestActivityItem {
         margin-top: 22px;
         height: 180px;
-        padding-bottom: 32px;
+        padding-bottom: 38px;
     }
 
     .smallActivityItem {
         height: 180px;
-        padding-bottom: 32px;
+        padding-bottom: 38px;
         margin-bottom: 22px;
     }
 
     .activityItem {
         margin-top: 0;
         height: 180px;
-        padding-bottom: 32px;
+        padding-bottom: 38px;
     }
 
     /*====footer====*/
@@ -884,8 +898,9 @@ footer {
     }
 
     .footerpart h5 {
-        font-size: 24px;
+        font-size: 20px;
         word-break: none;
+        margin-top: 56px;
         margin-bottom: 28px;
     }
 
@@ -902,11 +917,11 @@ footer {
     /*====header====*/
 
     #nav li::after {
-        left: -32%;
+      left: 20%;
     }
 
     #nav li:hover::after {
-        width: 150%;
+        width: 140%;
     }
 
     /*====littleinfo====*/
@@ -914,6 +929,8 @@ footer {
     #littleinfo h4 {
         width: 60%;
     }
+
+
 
     /*====research====*/
 
@@ -956,12 +973,21 @@ footer {
     #filter h5 {
         display: flex;
         align-self: flex-start;
-        margin: 32px 0px 0px 22px;
+        margin: 0px 0 0 22px;
         padding: 0 0;
     }
 
+    /*====info====*/
+
+    .info h6 {
+        margin-top: 36px;
+    }
+
     #infoimg {
-        margin-top: 20px;
+        margin-bottom: 8px;
+        font-size: 14px;
+        width: 20px;
+        height: 20px;
     }
 
     /*====lodging====*/
@@ -990,6 +1016,10 @@ footer {
         width: 95%;
         border-radius: 3%;
         margin: 0 18px;
+    }
+
+    .sideItemsInfo {
+        font-size: 22px;
     }
 
     .sideStarRaiting {
