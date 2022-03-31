@@ -893,7 +893,7 @@ footer {
 
     .footerpart h5 {
         font-size: 20px;
-        margin-top: 56px;
+        margin-top: 64px;
         margin-bottom: 28px;
     }
 
@@ -947,7 +947,8 @@ footer {
     #filter {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
+        align-items: flex-start;
     }
 
     #filterbar li div {
