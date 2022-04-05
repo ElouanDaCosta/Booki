@@ -273,6 +273,11 @@ header {
 
 .menuItemsInfo a:link {
     text-decoration: none;
+    color: black;
+}
+
+.menuItemsInfo a:hover {
+    color: #0065FC;
 }
 
 .menuItemsInfo h5 {
@@ -400,6 +405,11 @@ header {
 
 .sideItemsInfo a:link{
     text-decoration: none;
+    color: black;
+}
+
+.sideItemsInfo a:hover {
+    color: #0065FC;
 }
 
 .sideItemsInfo h4 {
@@ -494,6 +504,11 @@ header {
 
 .activityItemInfo a:link {
     text-decoration: none;
+    color: black;
+}
+
+.activityItemInfo a:hover {
+    color: #0065FC;
 }
 
 .largeActivityItem {
