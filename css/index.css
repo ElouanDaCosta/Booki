@@ -249,8 +249,8 @@ header {
     background-color: white;
     width: calc(33% - 26px);
     height: 210px;
-    margin-right: 28px;
-    margin-bottom: 28px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     padding: 0px 0px;
     border-radius: 20px;
     position: relative;
@@ -944,8 +944,46 @@ footer {
 {
     /*====header====*/
 
+    header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #logo {
+        display: flex;
+        align-self: center;
+        width: 25%;
+        margin: 48px 0 0 36px;
+    }
+
+    #nav {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+    }
+
+    #nav ul {
+        padding: 0 0;
+        border-bottom: 4px solid #F2F2F2;
+    }
+
+    #nav li {
+        width: 35%;
+        font-size: large;
+        margin: 0px 28px;
+        padding-bottom: 10px;
+    }
+
     #nav li::after {
+        transition: width .250s linear;
+        content: '';
+        position: absolute;
+        height: 4px;
+        background : #0065FC;
+        top: 80px;
         left: -25%;
+        width: 0;
     }
 
     #nav li:hover::after {
@@ -961,7 +999,7 @@ footer {
     /*====research====*/
 
     #littleinfo input {
-        width: 250px;
+        width: 50%;
     }
 
     #littleinfo button {
@@ -1019,10 +1057,14 @@ footer {
 
     /*====lodging====*/
 
+    #lodging {
+        padding: 0 0;
+        flex-direction: column-reverse;
+    }
+
     .menu {
         margin: 30px 0 0 18px;
         width: 95%;
-        height: 50%;
         background-color: #F2F2F2;
         border-radius: 3%;
     }
@@ -1056,6 +1098,7 @@ footer {
     /*====activity====*/
 
     #activity {
+        padding: 0 18px;
         flex-direction: column;
     }
 
@@ -1071,6 +1114,7 @@ footer {
 
     .activitySubContainer {
         width: 100%;
+        margin-left: 0;
     }
 
     .largeActivityItem {
@@ -1119,46 +1163,4 @@ footer {
         margin-left: 18px;
     }
 
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px)
-{
-    /*====lodging====*/
-
-    #lodging {
-        padding: 0 0;
-        flex-direction: row;
-    }
-
-    .menu {
-        margin: 30px 0 18px 18px;
-        width: 70%;
-        background-color: #F2F2F2;
-        border-radius: 3%;
-    }
-
-    #menulist {
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-
-    .menuitems {
-        font-size: 14px;
-    }
-
-    /*====mostpopular====*/
-
-    .asidemenu {
-        width: 30%;
-        border-radius: 3%;
-        margin: 30px 18px 18px 18px;
-    }
-
-    .sideItemsInfo {
-        font-size: 14px;
-    }
-
-    .sideStarRaiting {
-        padding: 42px 284px 8px 0;
-    }
 }
