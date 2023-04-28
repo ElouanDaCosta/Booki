@@ -1,4 +1,4 @@
-# Projet2
-Transform a model in web site using html and css
+# Booki
+## Second project of the OpenclassRoom web development formation
 
-faire l'animation dans le nav sur la partie tablet
+Make a website in html and css using a mock-up
